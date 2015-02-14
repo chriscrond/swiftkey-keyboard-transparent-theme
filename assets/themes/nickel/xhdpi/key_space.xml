@@ -1,0 +1,4 @@
+<selector>
+    <item state_pressed="true" drawable="key_space_pressed.xml" />
+    <item state_pressed="false" drawable="key_space_normal.xml" />
+</selector>

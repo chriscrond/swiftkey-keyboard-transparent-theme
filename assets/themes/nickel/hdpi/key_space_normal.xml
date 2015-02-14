@@ -1,5 +1,6 @@
 <layer-list>
 
+    <!-- Adding padding for the inner drawable. -->
     <item
         left="2dp"
         right="2dp"
