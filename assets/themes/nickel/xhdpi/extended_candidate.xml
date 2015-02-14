@@ -1,0 +1,4 @@
+<selector>
+  <item drawable="extended_candidate_normal.xml" state_pressed="false"/>
+  <item drawable="extended_candidate_pressed.xml" state_pressed="true"/>
+</selector>

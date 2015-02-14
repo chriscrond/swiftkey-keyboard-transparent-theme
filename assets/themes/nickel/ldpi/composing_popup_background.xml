@@ -1,0 +1,8 @@
+<layer-list>
+  <item left="0dip" right="2dip" top="0dip" bottom="0dip">
+    <shape shape="rectangle">
+      <solid color="#cc000000"/>
+      <padding bottom="2dip" left="7dip" right="9dip" top="2dip"/>
+    </shape>
+  </item>
+</layer-list>

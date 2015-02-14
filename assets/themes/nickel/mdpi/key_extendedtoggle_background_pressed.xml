@@ -1,0 +1,9 @@
+<layer-list>
+  <item left="4dip" right="4dip" top="4dip" bottom="4dip">
+    <shape shape="rectangle">
+      <solid color="#e55da6b2"/>
+      <padding bottom="5dip" left="5dip" right="5dip" top="5dip"/>
+      <corners radius="5dip"/>
+    </shape>
+  </item>
+</layer-list>

@@ -1,0 +1,4 @@
+<selector>
+    <item state_pressed="false" drawable="icon_shift_inactive.png" />
+    <item state_pressed="true" drawable="icon_shift_active.png" />
+</selector>

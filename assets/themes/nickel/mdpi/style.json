@@ -1,0 +1,204 @@
+{
+    "version": 1,
+    "id": "nickel",
+    "name": "Nickel",
+    "renderer_id": "recolourable",
+    "background": {
+        "normal": "black",
+        "composing_popup": "composing_popup_background.xml",
+        "handwriting": "hw_canvas_background.xml"
+    },
+    "extra_controls": {
+        "flip_tab_left": "flip_left.png",
+        "flip_tab_right": "flip_right.png",
+        "move_tab_bottom": "paddle.png"
+    },
+    "flow": {
+        "trail_type": "default",
+        "colors": [
+            "#FF6ecdd6",
+            "#006ecdd6"
+        ]
+    },
+    "text_styles": [
+        {
+            "id": "text_base",
+            "color": "#f1efef"
+        },
+        {
+            "id": "text_base_top",
+            "color": "#838688"
+        },
+        {
+            "id": "text_function",
+            "color": "#6ecdd6"
+        },
+        {
+            "id": "text_function_top",
+            "color": "#676767"
+        },
+        {
+            "id": "text_candidate",
+            "color": "#f1efef"
+        },
+        {
+            "id": "text_candidatetop",
+            "color": "#71d6df",
+            "style": "bold"
+        },
+        {
+            "color": "#ffffff",
+            "id": "text_composing_popup"
+        },
+        {
+            "color": "#ffffff",
+            "id": "text_ecw_candidate"
+        }
+    ],
+    "key_styles": [
+        {
+            "id": "baseStyle",
+            "background": "key_base.xml",
+            "minikeyboard_background": "minikb_background.xml",
+            "color": "white",
+            "popup_background": "popup_background.xml",
+            "text_style_bottom": "text_base",
+            "text_style_top": "text_base_top"
+        },
+        {
+            "id": "functionStyle",
+            "parent": "baseStyle",
+            "background": "key_function.xml",
+            "secondary_color_filter": "#6ecdd6",
+            "text_style_main": "text_function",
+            "text_style_bottom": "text_function",
+            "text_style_top": "text_function_top"
+        },
+        {
+            "id": "specialStyle",
+            "parent": "baseStyle",
+            "background": "key_special.xml"
+        },
+        {
+            "id": "candidateStyle",
+            "parent": "functionStyle",
+            "background": "key_candidate.xml",
+            "text_style_main": "text_candidate"
+        },
+        {
+            "id": "lssbStyle",
+            "parent": "candidateStyle",
+            "color_filter": "#7fffffff"
+        },
+        {   
+            "id": "spaceStyle",
+            "parent": "baseStyle"
+        },
+        {
+            "id": "topCandidateStyle",
+            "parent": "candidateStyle",
+            "background": "key_candidatetop.xml",
+            "text_style_main": "text_candidatetop"
+        },
+        {
+            "id": "miniKeyboardKeyStyle",
+            "parent": "baseStyle",
+            "background": "key_minikb.xml"
+        },
+        {
+            "id": "composingPopupStyle",
+            "parent": "candidateStyle",
+            "text_style_main": "text_composing_popup",
+            "background": "composing_popup_background.xml",
+            "background_color_filter": "@null"
+        },
+        {
+            "id": "extendCandidatesToggleStyle",
+            "parent": "functionStyle",
+            "color_filter": "key_extendedtoggle_filter.xml",
+            "background_color_filter": "@null",
+            "background": "key_extendedtoggle.xml"
+        },
+        {
+            "id": "extendedCandidateStyle",
+            "parent": "candidateStyle",
+            "text_style_main": "text_ecw_candidate",
+            "background": "extended_candidate.xml",
+            "background_color_filter": "@null"
+        }
+    ],
+    "icons": [
+        {
+            "name": "DeleteKey",
+            "icon": "icon_delete.png"
+        },
+        {
+            "name": "ShiftKey",
+            "icon": "icon_shift.xml"
+        },
+        {
+            "name": "leftArrow",
+            "icon": "icon_arrow_left.png"
+        },
+        {
+            "name": "rightArrow",
+            "icon": "icon_arrow_right.png"
+        },
+        {
+            "name": "upArrow",
+            "icon": "icon_arrow_up.png"
+        },
+        {
+            "name": "downArrow",
+            "icon": "icon_arrow_down.png"
+        },
+        {
+            "name": "CommaKey",
+            "icon": "icon_microphone.png"
+        },
+        {
+            "name": "Settings123Key",
+            "icon": "icon_logo.png"
+        },
+        {
+            "name": "SettingsKey",
+            "icon": "icon_logo.png"
+        },
+        {
+            "name": "IMEGoKeyTop",
+            "icon": "icon_imego_top.xml"
+        },
+        {
+            "name": "IMEGoKey",
+            "icon": "icon_imego.xml"
+        },
+        {
+            "name": "TabKey",
+            "icon": "icon_tab.png"
+        },
+        {
+            "name": "EnterKey",
+            "icon": "icon_enter.png"
+        },
+        {
+            "name": "SpaceKey",
+            "icon": "@transparent"
+        },
+        {
+            "name": "SpaceKey_OpenBox",
+            "icon": "icon_space_openbox.png"
+        },
+        {
+            "name": "SplitLayoutKeyQWERTY",
+            "icon": "icon_qwerty_view.png"
+        },
+        {
+            "name": "Languages",
+            "icon": "icon_languages.png"
+        },
+        {
+            "name": "Smiley",
+            "icon": "icon_smiley.png"
+        }
+    ]
+}

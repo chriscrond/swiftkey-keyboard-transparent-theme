@@ -1,0 +1,20 @@
+<shape shape="rectangle">
+    <padding
+        left="5dp"
+        right="5dp"
+        top="5dp"
+        bottom="5dp" />
+    
+    <!-- Round corners on top-right and bottom-left. -->
+    <corners
+        topLeftRadius="5dp"
+        topRightRadius="5dp"
+        bottomRightRadius="5dp"
+        bottomLeftRadius="5dp" />
+    
+    <gradient
+        startColor="#097486"
+        endColor="#148497"
+        type="linear"
+        angle="90" />
+</shape>

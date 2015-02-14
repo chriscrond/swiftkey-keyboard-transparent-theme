@@ -1,0 +1,4 @@
+<selector>
+  <item drawable="key_extendedtoggle_background_normal.xml" state_pressed="false"/>
+  <item drawable="key_extendedtoggle_background_pressed.xml" state_pressed="true"/>
+</selector>

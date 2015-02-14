@@ -1,0 +1,16 @@
+<shape shape="rectangle">
+    <padding
+        left="5dp"
+        right="5dp"
+        top="5dp"
+        bottom="5dp" />
+    
+    <!-- Round corners on top-right and bottom-left. -->
+    <corners
+        topLeftRadius="5dp"
+        topRightRadius="5dp"
+        bottomRightRadius="5dp"
+        bottomLeftRadius="5dp" />
+    
+    <solid color="#5ca7b4" />
+</shape>

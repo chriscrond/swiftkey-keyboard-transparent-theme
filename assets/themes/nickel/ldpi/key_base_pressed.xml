@@ -1,0 +1,44 @@
+<layer-list>
+    
+    <!-- Adding padding for the inner drawable. -->
+    <item
+        left="2dp"
+        right="2dp"
+        top="2dp"
+        bottom="2dp">
+        
+        <shape shape="rectangle">
+            
+            <corners
+                topLeftRadius="5dp"
+                topRightRadius="5dp"
+                bottomRightRadius="5dp"
+                bottomLeftRadius="5dp" />
+            
+            <solid color="#805e5f5f" />
+        </shape>
+    </item>
+
+    <item
+        left="3dp"
+        right="2dp"
+        top="3dp"
+        bottom="2dp">
+        
+        <shape shape="rectangle">
+            <padding
+                left="5dp"
+                right="5dp"
+                top="5dp"
+                bottom="5dp" />
+
+            <solid color="#5e5f5f" />
+
+            <corners
+                topLeftRadius="5dp"
+                topRightRadius="5dp"
+                bottomRightRadius="5dp"
+                bottomLeftRadius="5dp" />
+        </shape>
+    </item>
+</layer-list>

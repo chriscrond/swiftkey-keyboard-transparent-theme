@@ -1,0 +1,7 @@
+<layer-list>
+  <item left="2dip" right="2dip" top="2dip" bottom="2dip">
+    <shape shape="rectangle">
+      <solid color="#ff383838"/>
+    </shape>
+  </item>
+</layer-list>

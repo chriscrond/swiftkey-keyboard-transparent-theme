@@ -1,0 +1,4 @@
+<selector>
+  <item state_pressed="true" filterString="#959595" />
+  <item state_pressed="false" filterString="#333333" />
+</selector>
