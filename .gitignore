@@ -1,2 +1,4 @@
 .idea
+tools/dirty
+tools/*.apk
 *.iml
