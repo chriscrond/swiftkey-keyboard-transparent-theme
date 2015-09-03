@@ -13,7 +13,7 @@ esac
 KEYSTORE_PATH=~/Projects/keystore
 KEYSTORE_ALIAS=drevlyanin
 KEYSTORE_PASSWORD=$2
-APKTOOL_JAR_PATH=~/Tools/apktool/apktool_2.0.0rc4.jar
+APKTOOL_JAR_PATH=apktool_2.0.1.jar
 ANDROID_SDK_PATH=~/Tools/android-sdk-linux
 
 cp -f original.apk dirty.apk
