@@ -1,11 +1,11 @@
 {
-    "version": 3,
     "themes": [
         {
+            "formatVersion": 2, 
+            "minorVersion": 1, 
             "id": "carbon",
-            "name": "Transparent Nickel",
-            "formatVersion": 3,
-            "minorVersion": 3
+            "name": "Transparent Nickel"
         }
-    ]
+    ], 
+    "version": 2
 }
