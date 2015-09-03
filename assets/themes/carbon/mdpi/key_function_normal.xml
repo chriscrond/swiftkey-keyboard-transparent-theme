@@ -1,29 +1,30 @@
 <layer-list>
-
+    
+    <!-- Adding padding for the inner drawable. -->
     <item
         left="2dp"
         right="2dp"
         top="2dp"
         bottom="2dp">
-
+        
         <shape shape="rectangle">
-
+            
             <corners
                 topLeftRadius="5dp"
                 topRightRadius="5dp"
                 bottomRightRadius="5dp"
                 bottomLeftRadius="5dp" />
-
+            
             <stroke width="1dp" color="#55000000" />
         </shape>
     </item>
-
+    
     <item
         left="3dp"
         right="3dp"
         top="3dp"
         bottom="3dp">
-
+        
         <shape shape="rectangle">
             <padding
                 left="5dp"
@@ -40,5 +41,4 @@
                 bottomLeftRadius="5dp" />
         </shape>
     </item>
-
 </layer-list>

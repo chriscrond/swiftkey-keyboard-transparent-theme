@@ -1,5 +1,5 @@
 {
-    "version": 1,
+    "version": 3,
     "id": "carbon",
     "name": "Transparent Nickel",
     "renderer_id": "recolourable",
@@ -68,8 +68,7 @@
         },
         {   
             "id": "spaceStyle",
-            "parent": "baseStyle",
-            "background": "key_space.xml"
+            "parent": "baseStyle"
         },
         {
             "id": "topCandidateStyle",
@@ -84,6 +83,7 @@
         {
             "id": "composingPopupStyle",
             "parent": "candidateStyle",
+            "text_style_main": "text_composing_popup",
             "background": "composing_popup_background.xml",
             "background_color_filter": "@null"
         },
@@ -97,6 +97,7 @@
         {
             "id": "extendedCandidateStyle",
             "parent": "candidateStyle",
+            "text_style_main": "text_ecw_candidate",
             "background": "extended_candidate.xml",
             "background_color_filter": "@null"
         }
